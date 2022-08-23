@@ -1,11 +1,50 @@
 body {
-    background-color: #94e1ff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-right: 15%;
-    margin-left: 15%;
+    background-color: #93aadb;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8vw;
+}
 h2 {
-    background-color: #7d7800;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+}
+
+ 
+a:link {
+    color: black;
+}
+
+a:active {
+    font-size: 90%;
+}
+
+a:visited {
+    color: rgb(100, 100, 100)
+}
+
+a:hover {
+    color: rgb(0, 8, 255)
+}
+
+img.horseshoe {
+    width: 100%
+
+}
+img#XC {
+    float: right;
+    width:28%;
+    margin-left: 1em;
+    
+}
+* {
+     border: .1em dotted brown
 }
