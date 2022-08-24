@@ -7,14 +7,12 @@ body {
     margin-top: 5%;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 8vw;
 }
 h2 {
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
     font-size: 5vw;
 }
 
@@ -28,7 +26,7 @@ a:active {
 }
 
 a:visited {
-    color: rgb(100, 100, 100)
+    color: rgb(0, 9, 103)
 }
 
 a:hover {
@@ -39,12 +37,34 @@ img.horseshoe {
     width: 100%
 
 }
+
+h3 {
+    background-color: rgb(238, 255, 197);
+    width: fit-content;
+
+}
+div.date {
+    font-style: italic;
+    font-weight: lighter; 
+    
+}
+
+div.blurb {
+    font-weight: bolder;
+    text-indent: 10%
+}
+
 img#XC {
     float: right;
     width:28%;
     margin-left: 1em;
     
 }
+
+
+
+
+
 * {
-     border: .1em dotted brown
+     /*border: .1em dotted brown*/
 }
