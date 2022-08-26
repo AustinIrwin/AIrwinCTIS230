@@ -3,8 +3,8 @@ body {
     font-family: 'Fira Sans', sans-serif;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 10%;
-    margin-top: 5%;
+    margin-bottom: 50%;
+    margin-top: 12%;
 }
 
 
@@ -85,32 +85,41 @@ img#antelope {
     border:4px solid rgb(0, 9, 103)
 }
 
-/*section#SKILLS {
+section#SKILLS {
     float:left;
-    width: 50%;
+    width: 45%;
     margin: 2%;
 }
 
 section#AWARDS {
     float: right;
-    width: 50%;
+    width: 45%;
     margin: 2%;
+    
 }
-*/
+
 
 header.Nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: antiquewhite;
 }
 
 footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
     display: flex;
-    font-size: 60%;
+    font-size: 90%;
     background-color: antiquewhite;
     justify-content: space-between;
     flex-direction: column;
-    margin: 10px;
+    margin: 0px;
 }
 * {
     /* border: .1em dotted brown*/
