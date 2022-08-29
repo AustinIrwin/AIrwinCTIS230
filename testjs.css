@@ -1,18 +1,24 @@
 body {
-    margin-left:20%;
-    margin-right:20%;
-    background-color:khaki;
-  }
-  
-  h1, p {
-    text-align: center;
-    font-family: "GIll Sans", "Gill Sans MT", sans-serif;
-  }
-  
-  * {
-    border: 2px dotted brown;
-  }
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: khaki;
+}
 
-  button#mybutton {
-    font-size:1.5em;
-  }
+h1,
+p {
+  text-align: center;
+  font-family: "GIll Sans", "Gill Sans MT", sans-serif;
+}
+
+* {
+  border: 2px dotted brown;
+}
+
+button#mybutton {
+  font-size: 1.5em;
+}
+
+div#card {
+  border: 3px solid green;
+  display: none;
+}

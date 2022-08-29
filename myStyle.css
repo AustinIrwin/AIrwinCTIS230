@@ -7,6 +7,9 @@ body {
     margin-top: 12%;
 }
 
+body#EXTRACURRICULARS {
+    margin-bottom:auto;
+}
 
 h1, h2 {
     text-align:left;
@@ -115,14 +118,27 @@ footer {
     bottom: 0%;
     left: 0;
     width: 100%;
-    display: flex;
+    /*display: flex; */
     font-size: 75%;
     background-color: antiquewhite;
-    justify-content: space-between;
-    flex-direction: column;
+    /*justify-content: space-between;
+    flex-direction: column;*/
     margin: 0px;
+    padding: 10px;
 }
+
+div#foot {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+div#foot div {
+    margin-left: 10px;
+}
+
 * {
-    /* border: .1em dotted brown*/
+    border: .1em dotted brown
 
 }
