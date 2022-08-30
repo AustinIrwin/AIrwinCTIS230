@@ -143,27 +143,3 @@ div#foot div {
 
 }
 
-
-/*media queries for responsive design */
-/* Ask the browser to identify the properties of the media that the content
-is being displayed on and change the CSS rules accordingly */
-
-/*as long as the width fo teh viewport is less than 750px, implement whatever rules */
-
-@media (max-width : 750px) {
-    body {
-        margin-left: 3%;
-        margin-right:3%;
-    }
-
-}
-
-
-/* change the background color for landscape */
-@media screen and (orientation: landscape) {
-    body {
-        background-color: black;
-        display: none;
-    }
-    
-}
