@@ -1,3 +1,6 @@
+/******************** INTRO (1) */
+
+
 //this stores the element from the HTML file in the Javascipt file
 myitem = document.getElementById("firsttest");
 //this creates an event listener for myitem, listening for a click
@@ -18,7 +21,7 @@ function mouseOut() {
 }
 
 
-/*************** BUttons ********************** */
+/*************** Buttons (2) ********************** */
 
 // I spent lots of time trying to make buttons work with li
 //  Items in my list on the Extracurriculars page but no 
@@ -67,7 +70,7 @@ function BAM() {
 }
 
 
-/****************************INPUT************ */
+/****************************INPUT (3)************ */
 
 //otheritem = document.getElementById("otheritem")
 
@@ -78,4 +81,13 @@ textentry.addEventListener("change", onChange);
 function onChange() {
     newtext = myinput.value;
     otheritem.innerHTML = newtext;
+}
+
+
+/******************** Image more interactive (4) */
+
+imgitem.addEventListener("click", shrink);
+
+function shrink() {
+    imgitem.style.height = "100px";
 }
