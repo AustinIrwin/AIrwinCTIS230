@@ -4,11 +4,7 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 20%;
-    margin-top: 12%;
-}
-
-body#EXTRACURRICULARS {
-    margin-bottom: 50%;
+    margin-top: 5%;
 }
 
 h1, h2 {
@@ -90,14 +86,14 @@ img#antelope {
 }
 
 section#SKILLS {
-    float:left;
-    width: 45%;
+    float:left; 
+    width: 46%;
     margin: 2%;
 }
 
 section#AWARDS {
     float: right;
-    width: 45%;
+    width: 46%;
     margin: 2%;
     
 }
@@ -150,20 +146,7 @@ div#foot div {
 
 
 
-@media (max-width: 650px) {
-    body {
-        margin-left: 3%;
-        margin-right: 3%;
-        margin-top: 6%
-    }
-    header.Nav {
-        height: 5%;
-        font-size: x-small;
-    }
-    footer {
-        font-size: large;
-    }
-}
+
 
 @media (orientation: landscape) {
     img#horseshoe {
@@ -181,9 +164,31 @@ div#foot div {
     }
 }
 
+@media (orientation: portrait) {
+    footer {
+        height: 10%;
+    }
+    body {
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 6%;
+        font-size: large;
+    }
+    header.Nav {
+        height: 5%;
+        font-size: x-small;
+    }
 
+}
 
- *{
+@media (max-width: 800px) {
+
+    footer {
+        font-size: xx-small;
+    }
+}
+
+ /*{
     border: .1em dotted brown
 
 }
