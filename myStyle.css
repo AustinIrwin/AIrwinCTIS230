@@ -143,7 +143,21 @@ div#foot div {
     margin:0px;
 }
 
+img#robo {
+    width: 50px;
+    height: auto;
+}
 
+img#bigRobo {
+    position: fixed;
+    top:20vh;
+    left: 10vw;
+    height: 60vh;
+
+}
+img.dontShow {
+    display: none;
+}
 
 
 
@@ -177,6 +191,11 @@ div#foot div {
     header.Nav {
         height: 5%;
         font-size: x-small;
+    }
+
+    img#bigRobo {
+        width: 80vw;
+        height: auto;
     }
 
 }
